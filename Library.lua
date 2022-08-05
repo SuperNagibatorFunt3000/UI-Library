@@ -46,7 +46,6 @@ function Utility:TweenObject(obj, properties, duration, ...)
     tween:Create(obj, tweeninfo(duration, ...), properties):Play()
 end
 
--- Я не парился с цветами , просто если вам лень делать свою тему , то можете взяь готовую
 local themes = {
     SchemeColor = Color3.fromRGB(74, 99, 135),
     Background = Color3.fromRGB(36, 37, 43),
@@ -195,23 +194,23 @@ function Kavo.CreateLib(kavName, themeList)
     if not themeList then
         themeList = themes
     end
-    if themeList == "RJTheme1" then
+    if themeList == "ChelovekTheme1" then
         themeList = themeStyles.RJTheme1
-    elseif themeList == "RJTheme2" then
+    elseif themeList == "ChelovekTheme2" then
         themeList = themeStyles.RJTheme2
-    elseif themeList == "RJTheme3" then
+    elseif themeList == "ChelovekTheme3" then
         themeList = themeStyles.RJTheme3
-    elseif themeList == "RJTheme3" then
+    elseif themeList == "ChelovekTheme3" then
         themeList = themeStyles.RJTheme3
-    elseif themeList == "RJTheme4" then
+    elseif themeList == "ChelovekTheme4" then
         themeList = themeStyles.RJTheme4
-    elseif themeList == "RJTheme5" then
+    elseif themeList == "ChelovekTheme5" then
         themeList = themeStyles.RJTheme5
-    elseif themeList == "RJTheme6" then
+    elseif themeList == "ChelovekTheme6" then
         themeList = themeStyles.RJTheme6
-    elseif themeList == "RJTheme7" then
+    elseif themeList == "ChelovekTheme7" then
         themeList = themeStyles.RJTheme7
-    elseif themeList == "RJTheme8" then
+    elseif themeList == "ChelovekTheme8" then
         themeList = themeStyles.RJTheme8
     else
         if themeList.SchemeColor == nil then
