@@ -55,7 +55,7 @@ local themes = {
     ElementColor = Color3.fromRGB(32, 32, 38)
 }
 local themeStyles = {
-    RJTheme1 = {
+    ChelovekTheme1 = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(112, 112, 112),
 	-- Цвет фона в правой части UI
@@ -67,7 +67,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    RJTheme2 = {
+    ChelovekTheme2 = {
     -- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(139,123,139),
 	-- Цвет фона в правой части UI
@@ -79,7 +79,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    RJTheme3 = {
+    ChelovekTheme3 = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(91, 94, 176),
 	-- Цвет фона в правой части UI
@@ -91,7 +91,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    RJTheme3 = {
+    ChelovekTheme3 = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(98, 77, 128),
 	-- Цвет фона в правой части UI
@@ -103,7 +103,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    RJTheme4 = {
+    ChelovekTheme4 = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(128, 77, 112),
 	-- Цвет фона в правой части UI
@@ -115,7 +115,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    RJTheme5 = {
+    ChelovekTheme5 = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(150, 141, 71),
 	-- Цвет фона в правой части UI
@@ -127,7 +127,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    RJTheme6 = {
+    ChelovekTheme6 = {
         	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(86, 128, 61),
 	-- Цвет фона в правой части UI
@@ -139,7 +139,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    RJTheme7 = {
+    ChelovekTheme7 = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(95, 81, 168),
 	-- Цвет фона в правой части UI
@@ -151,7 +151,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    RJTheme8 = {
+    ChelovekTheme8 = {
     -- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(150, 72, 148),
 	-- Цвет фона в правой части UI
