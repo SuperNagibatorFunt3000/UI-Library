@@ -11,6 +11,7 @@ function Kavo:DraggingEnabled(frame, parent)
         
     parent = parent or frame
     
+    -- Тут начинается приступ говнокода 5 степени :)
     local dragging = false
     local dragInput, mousePos, framePos
 
@@ -46,6 +47,7 @@ function Utility:TweenObject(obj, properties, duration, ...)
     tween:Create(obj, tweeninfo(duration, ...), properties):Play()
 end
 
+-- Я не парился с цветами , просто если вам лень делать свою тему , то можете взяь готовую
 local themes = {
     SchemeColor = Color3.fromRGB(74, 99, 135),
     Background = Color3.fromRGB(36, 37, 43),
@@ -54,7 +56,7 @@ local themes = {
     ElementColor = Color3.fromRGB(32, 32, 38)
 }
 local themeStyles = {
-    ChelovekTheme1 = {
+    RJTheme1 = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(112, 112, 112),
 	-- Цвет фона в правой части UI
@@ -66,7 +68,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    ChelovekTheme2 = {
+    RJTheme2 = {
     -- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(139,123,139),
 	-- Цвет фона в правой части UI
@@ -78,7 +80,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    ChelovekTheme3 = {
+    RJTheme3 = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(91, 94, 176),
 	-- Цвет фона в правой части UI
@@ -90,7 +92,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    ChelovekTheme3 = {
+    RJTheme3 = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(98, 77, 128),
 	-- Цвет фона в правой части UI
@@ -102,7 +104,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    ChelovekTheme4 = {
+    RJTheme4 = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(128, 77, 112),
 	-- Цвет фона в правой части UI
@@ -114,7 +116,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    ChelovekTheme5 = {
+    RJTheme5 = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(150, 141, 71),
 	-- Цвет фона в правой части UI
@@ -126,7 +128,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    ChelovekTheme6 = {
+    RJTheme6 = {
         	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(86, 128, 61),
 	-- Цвет фона в правой части UI
@@ -138,7 +140,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    ChelovekTheme7 = {
+    RJTheme7 = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(95, 81, 168),
 	-- Цвет фона в правой части UI
@@ -150,7 +152,7 @@ local themeStyles = {
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    ChelovekTheme8 = {
+    RJTheme8 = {
     -- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(150, 72, 148),
 	-- Цвет фона в правой части UI
@@ -194,23 +196,23 @@ function Kavo.CreateLib(kavName, themeList)
     if not themeList then
         themeList = themes
     end
-    if themeList == "ChelovekTheme1" then
+    if themeList == "RJTheme1" then
         themeList = themeStyles.RJTheme1
-    elseif themeList == "ChelovekTheme2" then
+    elseif themeList == "RJTheme2" then
         themeList = themeStyles.RJTheme2
-    elseif themeList == "ChelovekTheme3" then
+    elseif themeList == "RJTheme3" then
         themeList = themeStyles.RJTheme3
-    elseif themeList == "ChelovekTheme3" then
+    elseif themeList == "RJTheme3" then
         themeList = themeStyles.RJTheme3
-    elseif themeList == "ChelovekTheme4" then
+    elseif themeList == "RJTheme4" then
         themeList = themeStyles.RJTheme4
-    elseif themeList == "ChelovekTheme5" then
+    elseif themeList == "RJTheme5" then
         themeList = themeStyles.RJTheme5
-    elseif themeList == "ChelovekTheme6" then
+    elseif themeList == "RJTheme6" then
         themeList = themeStyles.RJTheme6
-    elseif themeList == "ChelovekTheme7" then
+    elseif themeList == "RJTheme7" then
         themeList = themeStyles.RJTheme7
-    elseif themeList == "ChelovekTheme8" then
+    elseif themeList == "RJTheme8" then
         themeList = themeStyles.RJTheme8
     else
         if themeList.SchemeColor == nil then
@@ -2196,6 +2198,8 @@ function Kavo.CreateLib(kavName, themeList)
                 local toggleEnabled = Instance.new("ImageLabel")
                 local onrainbow = Instance.new("TextButton")
                 local togName_2 = Instance.new("TextLabel")
+
+                --Properties:
                 local Sample = Instance.new("ImageLabel")
                 Sample.Name = "Sample"
                 Sample.Parent = colorHeader
