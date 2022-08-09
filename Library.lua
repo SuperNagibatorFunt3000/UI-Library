@@ -47,7 +47,7 @@ function Utility:TweenObject(obj, properties, duration, ...)
     tween:Create(obj, tweeninfo(duration, ...), properties):Play()
 end
 
--- Я не парился с цветами , просто если вам лень делать свою тему , то можете взяь готовую
+
 local themes = {
     SchemeColor = Color3.fromRGB(74, 99, 135),
     Background = Color3.fromRGB(36, 37, 43),
@@ -57,111 +57,111 @@ local themes = {
 }
 local themeStyles = {
     RJTheme1 = {
-	-- Цвет фона у Секций
+	
     SchemeColor = Color3.fromRGB(112, 112, 112),
-	-- Цвет фона в правой части UI
+	
 	Background = Color3.fromRGB(15,15,15),
-	-- Цвет фона в левой части UI
+	
     Header = Color3.fromRGB(15,15,15),
-	-- Цвет текста
+	
     TextColor = Color3.fromRGB(255,255,255),
-	-- Цвет фона у кнопок
+	
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
     RJTheme2 = {
-    -- Цвет фона у Секций
+    
     SchemeColor = Color3.fromRGB(139,123,139),
-	-- Цвет фона в правой части UI
+	
 	Background = Color3.fromRGB(15,15,15),
-	-- Цвет фона в левой части UI
+	
     Header = Color3.fromRGB(15,15,15),
-	-- Цвет текста
+	
     TextColor = Color3.fromRGB(255,255,255),
-	-- Цвет фона у кнопок
+	
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
     RJTheme3 = {
-	-- Цвет фона у Секций
+	
     SchemeColor = Color3.fromRGB(91, 94, 176),
-	-- Цвет фона в правой части UI
+	
 	Background = Color3.fromRGB(15,15,15),
-	-- Цвет фона в левой части UI
+	
     Header = Color3.fromRGB(15,15,15),
-	-- Цвет текста
+	
     TextColor = Color3.fromRGB(255,255,255),
-	-- Цвет фона у кнопок
+	
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
     RJTheme3 = {
-	-- Цвет фона у Секций
+	
     SchemeColor = Color3.fromRGB(98, 77, 128),
-	-- Цвет фона в правой части UI
+	
 	Background = Color3.fromRGB(15,15,15),
-	-- Цвет фона в левой части UI
+	
     Header = Color3.fromRGB(15,15,15),
-	-- Цвет текста
+	
     TextColor = Color3.fromRGB(255,255,255),
-	-- Цвет фона у кнопок
+	
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
     RJTheme4 = {
-	-- Цвет фона у Секций
+	
     SchemeColor = Color3.fromRGB(128, 77, 112),
-	-- Цвет фона в правой части UI
+	
 	Background = Color3.fromRGB(15,15,15),
-	-- Цвет фона в левой части UI
+	
     Header = Color3.fromRGB(15,15,15),
-	-- Цвет текста
+	
     TextColor = Color3.fromRGB(255,255,255),
-	-- Цвет фона у кнопок
+	
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
     RJTheme5 = {
-	-- Цвет фона у Секций
+	
     SchemeColor = Color3.fromRGB(150, 141, 71),
-	-- Цвет фона в правой части UI
+	
 	Background = Color3.fromRGB(15,15,15),
-	-- Цвет фона в левой части UI
+	
     Header = Color3.fromRGB(15,15,15),
-	-- Цвет текста
+	
     TextColor = Color3.fromRGB(255,255,255),
-	-- Цвет фона у кнопок
+	
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
     RJTheme6 = {
-        	-- Цвет фона у Секций
+        	
     SchemeColor = Color3.fromRGB(86, 128, 61),
-	-- Цвет фона в правой части UI
+	
 	Background = Color3.fromRGB(15,15,15),
-	-- Цвет фона в левой части UI
+	
     Header = Color3.fromRGB(15,15,15),
-	-- Цвет текста
+	
     TextColor = Color3.fromRGB(255,255,255),
-	-- Цвет фона у кнопок
+	
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
     RJTheme7 = {
-	-- Цвет фона у Секций
+	
     SchemeColor = Color3.fromRGB(95, 81, 168),
-	-- Цвет фона в правой части UI
+	
 	Background = Color3.fromRGB(15,15,15),
-	-- Цвет фона в левой части UI
+	
     Header = Color3.fromRGB(15,15,15),
-	-- Цвет текста
+	
     TextColor = Color3.fromRGB(255,255,255),
-	-- Цвет фона у кнопок
+	
     ElementColor = Color3.fromRGB(20, 20, 20)
     },
     RJTheme8 = {
-    -- Цвет фона у Секций
+    
     SchemeColor = Color3.fromRGB(150, 72, 148),
-	-- Цвет фона в правой части UI
+	
 	Background = Color3.fromRGB(15,15,15),
-	-- Цвет фона в левой части UI
+	
     Header = Color3.fromRGB(15,15,15),
-	-- Цвет текста
+	
     TextColor = Color3.fromRGB(255,255,255),
-	-- Цвет фона у кнопок
+	
     ElementColor = Color3.fromRGB(20, 20, 20)
     }
 }
