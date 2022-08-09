@@ -11,7 +11,7 @@ function Kavo:DraggingEnabled(frame, parent)
         
     parent = parent or frame
     
-    -- Тут начинается приступ говнокода 5 степени :)
+    
     local dragging = false
     local dragInput, mousePos, framePos
 
